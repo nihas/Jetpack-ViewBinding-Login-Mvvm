@@ -1,8 +1,8 @@
-# ViewBinding
-Sample demonstrating the use  of View Binding to Activities and Fragments with comments
+# Jetpack ViewBinding
+Sample demonstrating the use  of View Binding to Activities and Fragments With MVVM - Retrofit - Coroutines
 
 ## Want to understand View Binding ?
-Give a read to my <a href="https://gsrathoreniks.medium.com/view-binding-android-fb1dddeafdd6">View Binding - Android</a> blog on Medium and you'll have all your queries resolved.
+Give a read to my <a href="https://www.techbiriyani.com/synthetics-imports-are-deprecated-migrate-to-jetpack-view-binding-android/">Migrate to Jetpack view binding</a> on my personal blog (<a href="https://www.techbiriyani.com">TechBiriyani</a>) and you'll have all your queries resolved.
 
 
 
@@ -11,4 +11,4 @@ This repo consists of all the fundamental apps demonstrating concepts and implem
 
 
 ## Created & Maintained by
-<b><a href="https://github.com/gsrathoreniks">@gsrathoreniks</a></b>
+<b><a href="https://github.com/nihas">@nihasnizar</a></b>
