@@ -211,6 +211,15 @@
             app:layout_constraintRight_toRightOf="@id/forgotpassTxt"
             />
 
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="@dimen/_minus50sdp"
+            app:layout_constraintTop_toTopOf="@id/signinButton"
+            app:layout_constraintBottom_toBottomOf="@id/signinButton"
+            app:layout_constraintRight_toRightOf="@id/signinButton"
+            app:layout_constraintLeft_toLeftOf="@id/signinButton"/>
+
         <TextView
             android:id="@+id/signUpTxt"
             android:layout_width="wrap_content"

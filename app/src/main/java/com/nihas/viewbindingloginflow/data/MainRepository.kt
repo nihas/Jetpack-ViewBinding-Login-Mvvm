@@ -1,7 +1,9 @@
 package com.nihas.viewbindingloginflow.data
 
 import android.util.Log
-import com.intellicar.mytestgps.data.model.LoginRequest
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import com.nihas.viewbindingloginflow.data.model.LoginRequest
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
@@ -13,7 +15,7 @@ class MainRepository(val remoteSource: MainDataSource) {
     fun observeLogin(
         loginRequest: LoginRequest,
         ioCoroutineScope: CoroutineScope,
-        callback: (Result<ResponseBody>) -> Unit
+        callback: (Result<LoginRequest>) -> Unit
     ) {
         ioCoroutineScope.launch(getJobErrorHandler()) {
             val response = remoteSource.doLogin(loginRequest)

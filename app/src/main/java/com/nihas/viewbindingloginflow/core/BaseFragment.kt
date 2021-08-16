@@ -13,7 +13,7 @@ import com.nihas.viewbindingloginflow.ui.main.MainViewModel
 
 abstract class BaseFragment<DB : ViewBinding>(private val bindingFactory: (LayoutInflater, ViewGroup?, Boolean) -> DB): Fragment() {
     lateinit var viewModelFactory: ViewModelProvider.Factory
-    private lateinit var viewModel: MainViewModel
+    lateinit var viewModel: MainViewModel
 
     lateinit var binding: DB
 
@@ -40,4 +40,11 @@ abstract class BaseFragment<DB : ViewBinding>(private val bindingFactory: (Layou
 
     }
 
+    fun showSnackBar(msg: String) {
+
+        val snackbar = Snackbar
+            .make(binding.root, msg, Snackbar.LENGTH_LONG)
+//                        .setAction("RETRY") { }
+        snackbar.show()
+    }
 }

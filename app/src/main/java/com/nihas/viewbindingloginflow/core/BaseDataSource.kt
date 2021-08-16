@@ -60,10 +60,10 @@ abstract class BaseDataSource {
     fun provideLoggingInterceptor(): HttpLoggingInterceptor {
         var interceptor = HttpLoggingInterceptor()
         interceptor.level = HttpLoggingInterceptor.Level.BODY
-        interceptor.apply {
-            level =
-                if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY else HttpLoggingInterceptor.Level.NONE
-        }
+//        interceptor.apply {
+//            level =
+//                if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY else HttpLoggingInterceptor.Level.NONE
+//        }
         return interceptor
     }
 

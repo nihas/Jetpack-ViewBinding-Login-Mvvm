@@ -5,13 +5,14 @@ import com.nihas.viewbindingloginflow.core.BaseFragment
 import com.nihas.viewbindingloginflow.core.injectViewModel
 import com.nihas.viewbindingloginflow.core.injectViewModelFactory
 import com.nihas.viewbindingloginflow.databinding.ViewLoginBinding
+import com.nihas.viewbindingloginflow.databinding.ViewMainBinding
 import com.nihas.viewbindingloginflow.ui.main.MainViewModel
 
-class MainFragment: BaseFragment<ViewLoginBinding>(ViewLoginBinding::inflate) {
+class MainFragment: BaseFragment<ViewMainBinding>(ViewMainBinding::inflate) {
 
     override fun setUpViews() {
         super.setUpViews()
-        
+
 
     }
 }

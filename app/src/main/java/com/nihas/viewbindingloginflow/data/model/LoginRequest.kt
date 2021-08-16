@@ -1,4 +1,4 @@
-package com.intellicar.mytestgps.data.model
+package com.nihas.viewbindingloginflow.data.model
 
 data class LoginRequest (
     val Email: String? = null,

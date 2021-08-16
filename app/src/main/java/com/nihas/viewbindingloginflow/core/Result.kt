@@ -21,6 +21,7 @@ data class Result<out T>(val status: Status, val data: T?, val message: String?)
         }
 
         fun <T> error(message: String, data: T? = null): Result<T> {
+            //CAN ABLE TO PARSE THE ERROR HERE
             return Result(Status.ERROR, data, message)
         }
 
