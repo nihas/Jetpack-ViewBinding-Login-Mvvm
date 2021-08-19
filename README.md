@@ -12,3 +12,5 @@ This repo consists of all the fundamental apps demonstrating concepts and implem
 
 ## Created & Maintained by
 <b><a href="https://github.com/nihas">@nihasnizar</a></b>
+
+![Preview](https://raw.githubusercontent.com/nihas/Jetpack-ViewBinding-Login-Mvvm/master/arts/Screen.png)
